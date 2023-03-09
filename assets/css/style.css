@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Poppins:wght@900&family=Pridi:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-secundary-w: #fff;
+    --text-secundary-b: #000;
+    --font-heading: 'Pridi';
+    --font-default: 'Baskervville';
+    --stroke: 1px #000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    stroke: var(--text-secundary-b);
+    
+}
+
+h1 {
+    font-size: 11rem;
+    font-weight: 900;
+    color: var(--text-secundary-w);
+    /*width: 110rem;*/
+    font-family: Poppins;
+    -webkit-text-stroke: var(--stroke);
+}
+
+span {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--text-secundary-w);
+    font-family: var(--font-heading);
+    -webkit-text-stroke: var(--stroke);
+    text-align: center;
+}
+
+.section-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url("../images/Energ_Renov.jpg");
+    background-size: cover;
+    height: 62.4rem;
+    background-position-x: -13rem;
+    background-position-y: -14.8rem;
+    padding: 1.3rem 5rem 3.7rem 44.5%;
+    
+}
+
+.section-start-h2 {
+    font-size: 12.8rem;
+    font-weight: 700;
+    color: var(--text-secundary-w);
+    font-family: var(--font-heading);
+    text-shadow: var(--text-secundary-b);
+    -webkit-text-stroke: var(--stroke);
+    line-height: 13rem;
+    margin-left: 4.4rem;
+    /*padding: 1.3rem 5rem 1.5rem 61.4rem;
+    padding: 1.3rem 5rem;
+    line-height: 13rem;
+    width: 49.2%;
+    height: 41.6%;*/
+}
+
+.section-start-p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--text-secundary-b);
+    font-family: var(--font-default);
+    /*padding: 0rem 57rem;
+    padding: 1.5rem 5rem 3.7rem 57rem;
+    width: 51.5%;
+    height: 48%;*/
+    
+}
+
+.section-eolica{
+    display: flex;
+    background-image: url("../images/Energ_Eolica.png");
+    background-size: cover;
+    flex-wrap: nowrap;
+    height: 85vh;
+    background-position-y: -30.8rem;
+    gap: 8%;
+    padding: 1.3rem 5rem 3.7rem 8rem;
+}
+
+.section-eolica-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-eolica-imagem{
+    width: 50%;
+    height: 75%;
+    border-radius: 44px;
+    border: 3px solid #000;
+}
+
+.section-eolica-titulo{
+    font-size: 12.8rem;
+    font-weight: 700;
+    color: #38C3FF;
+    font-family: var(--font-heading);
+    text-shadow: var(--text-secundary-b);
+    -webkit-text-stroke: var(--stroke);
+    line-height: 13rem;
+    margin-left: 4.4rem;
+}
+
+.section-eolica-p{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--text-secundary-b);
+    font-family: var(--font-default);
+    width: 60%;
+    border-left: 0.5px solid #000;
+    padding-left: 2%;
+    height:92%;
+    /*background-color: #ffffff40;*/
+}
