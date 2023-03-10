@@ -48,7 +48,7 @@ span {
     text-align: center;
 }
 
-.section-start {
+#section-start {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -61,7 +61,7 @@ span {
     
 }
 
-.section-start-h2 {
+#start-h2 {
     font-size: 12.8rem;
     font-weight: 700;
     color: var(--text-secundary-w);
@@ -70,51 +70,46 @@ span {
     -webkit-text-stroke: var(--stroke);
     line-height: 13rem;
     margin-left: 4.4rem;
-    /*padding: 1.3rem 5rem 1.5rem 61.4rem;
-    padding: 1.3rem 5rem;
-    line-height: 13rem;
-    width: 49.2%;
-    height: 41.6%;*/
 }
 
-.section-start-p {
+#start-p {
     font-size: 2.4rem;
     font-weight: 400;
     color: var(--text-secundary-b);
     font-family: var(--font-default);
-    /*padding: 0rem 57rem;
-    padding: 1.5rem 5rem 3.7rem 57rem;
-    width: 51.5%;
-    height: 48%;*/
     
 }
 
-.section-eolica{
+#section-eolica{
     display: flex;
     background-image: url("../images/Energ_Eolica.png");
     background-size: cover;
     flex-wrap: nowrap;
-    height: 85vh;
-    background-position-y: -30.8rem;
+    height: 75vh;
+    background-position-y: -15.8rem;
     gap: 8%;
     padding: 1.3rem 5rem 3.7rem 8rem;
+    background-repeat: no-repeat;
 }
 
-.section-eolica-div{
+#eolica-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    height: 80%;
 }
 
-.section-eolica-imagem{
+#eolica-imagem{
     width: 50%;
-    height: 75%;
+    height: 50%;
     border-radius: 44px;
     border: 3px solid #000;
+    
+    
 }
 
-.section-eolica-titulo{
+#eolica-titulo{
     font-size: 12.8rem;
     font-weight: 700;
     color: #38C3FF;
@@ -125,7 +120,7 @@ span {
     margin-left: 4.4rem;
 }
 
-.section-eolica-p{
+#eolica-p{
     font-size: 2.4rem;
     font-weight: 400;
     color: var(--text-secundary-b);
@@ -133,6 +128,7 @@ span {
     width: 60%;
     border-left: 0.5px solid #000;
     padding-left: 2%;
-    height:92%;
-    /*background-color: #ffffff40;*/
+    height:80%;
+    background-color: #ffffff40;
+    border-radius: 20px;
 }
