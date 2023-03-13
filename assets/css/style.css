@@ -208,3 +208,65 @@ header {
     background-image: url("../images/Ener_Hidre_Fundo.png");
 }
 
+#hidre-h2{
+    color: #66BFFF;
+}
+
+
+
+
+#section-bio{
+    background-image: url("../images/Energ_Biomassa_Fundo.png");
+}
+
+#bio-imagem{
+    background-image: url("../images/Energ_Biomassa_Frente.png");
+}
+
+#bio-h2{
+    color: #98D90E;
+}
+
+
+
+
+#section-geo{
+    background-image: url("../images/Energ_Geo_Fundo.png");
+}
+
+#geo-imagem{
+    background-image: url("../images/Energ_Geo_Frente.png");
+}
+
+#geo-h2{
+    color: #F06110;
+}
+
+
+
+#section-mare{
+    background-image: url("../images/Energ_Mare_Fundo.png");
+}
+
+#mare-imagem{
+    background-image: url("../images/Energ_Mare_Frente.png");
+}
+
+#mare-h2{
+    color: #0D4F9C;
+}
+
+
+
+
+#section-hidro{
+    background-image: url("../images/Energ_Hidro_Fundo.png");
+}
+
+#hidro-imagem{
+    background-image: url("../images/Energ_Hidro_Frente.png");
+}
+
+#hidro-h2{
+    color: #C6D7DC;
+}
