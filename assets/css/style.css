@@ -80,53 +80,34 @@ header {
     
 }
 
-.div-imagem{
-    
-    border-radius: 44px;
-    border: 3px solid #000;
-}
-
-#section-eolica{
+.sections{
+    height: 80%;
+    width: 100vw;
     display: flex;
-    background-image: url("../images/Energ_Eolica.png");
     background-size: cover;
     flex-wrap: nowrap;
-    height: 75vh;
-    background-position-y: -15.8rem;
     gap: 8%;
     padding: 1.3rem 5rem 3.7rem 8rem;
-    background-repeat: no-repeat;
 }
 
-#eolica-div{
+
+.divs{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    height: 100%;
-    width: 30%;
-}
-
-#eolica-imagem{
-    background-image: url("../images/Energ_Eolica_frente.png");
-    background-position-x: 32rem;
-    background-position-y: -8rem;
-    width: 50%;
     height: 70%;
+    width: 70%;
 }
 
-#eolica-titulo{
-    font-size: 12.8rem;
-    font-weight: 700;
-    color: #38C3FF;
-    font-family: var(--font-heading);
-    text-shadow: var(--text-secundary-b);
-    -webkit-text-stroke: var(--stroke);
-    line-height: 13rem;
-    margin-left: 4.4rem;
+.div-imagem{
+    border-radius: 44px;
+    border: 3px solid #000;
+    width: 20vw;
+    height: 40vh;
 }
 
-#eolica-p{
+.paragrafo{
     font-size: 2.4rem;
     font-weight: 400;
     color: var(--text-secundary-b);
@@ -135,40 +116,67 @@ header {
     padding-left: 2%;
     background-color: #ffffff40;
     border-radius: 20px;
-    width: 60%;
 }
 
-#section-solar{
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    background-size: cover;
-    flex-wrap: nowrap;
-    background-image: url("../images/Energ_Solar_Fundo.png");
-    padding: 1.3rem 5rem 3.7rem 8rem;
+.titulo{
+    font-size: 12.8rem;
+    font-weight: 700;
+    line-height: 13rem;
+    font-family: var(--font-heading);
+    text-shadow: var(--text-secundary-b);
+    -webkit-text-stroke: var(--stroke);
+}
+
+
+
+
+
+#section-eolica{
+    background-image: url("../images/Energ_Eolica.png");
+    background-position-y: -15.8rem;
     background-repeat: no-repeat;
+}
+
+/*#eolica-div{
+    
+}*/
+
+#eolica-imagem{
+    background-image: url("../images/Energ_Eolica_frente.png");
+    background-position-x: 32rem;
+    background-position-y: -8rem;
+}
+
+#eolica-titulo{
+    color: #38C3FF;
+}
+
+/*#eolica-p{
+    
+}*/
+
+
+
+
+
+
+
+
+
+
+
+#section-solar{
+    
+    background-image: url("../images/Energ_Solar_Fundo.png");
     background-position-y: -20.8rem;
-    gap: 8%;
-    align-items: center;
+    background-repeat: no-repeat;
+    
 }
 
 #solar-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    height: 100%;
-    width: 60%;
     
 }
 #solar-p{
-    font-size: 2.4rem;
-    font-weight: 400;
-    color: var(--text-secundary-b);
-    font-family: var(--font-default);
-    border-left: 1px solid #000;
-    padding-left: 2%;
-    background-color: #ffffff40;
     border-radius: 20px;
     width: 100%;
 }
@@ -177,8 +185,6 @@ header {
     background-image: url("../images/Energ_Solar_Frente.png");
     background-position-x: 40rem;
     background-position-y: -1rem;   
-    width: 20%;
-    height: 70%;
 }
 
 #solar-h2{
@@ -191,3 +197,14 @@ header {
     line-height: 13rem;
     margin-left: 4.4rem;
 }
+
+
+
+#hidre-imagem{
+    background-image: url("../images/Energ_Hidre_Frente.png");
+}
+
+#section-hidre{
+    background-image: url("../images/Ener_Hidre_Fundo.png");
+}
+
